@@ -1,5 +1,5 @@
-import { FriendListWrapper } from './friendList.styled'
-import { FriendListItem } from './friendListItem'
+import { FriendListWrapper } from './friendList.styled';
+import { FriendListItem } from './friendListItem';
 
 export const FriendList = ({ friends }) => {
   return (
@@ -11,13 +11,9 @@ export const FriendList = ({ friends }) => {
             avatar={avatar}
             name={name}
             isOnline={isOnline}
-          />);
-      })
-      }
-
+          />
+        );
+      })}
     </FriendListWrapper>
-
-  )
-}
-
-
+  );
+};
