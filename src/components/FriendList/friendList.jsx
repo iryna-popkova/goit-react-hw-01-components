@@ -1,5 +1,5 @@
 import { FriendListWrapper } from './friendList.styled'
-import { FriendListItem } from './friendListItem';
+import { FriendListItem } from './friendListItem'
 
 export const FriendList = ({ friends }) => {
   return (
